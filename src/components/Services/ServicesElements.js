@@ -58,7 +58,7 @@ export const ServicesCard = styled.div`
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 0 25x;
-    max-height: 200px;
+    max-height: 380px;
   }  
 `;
 

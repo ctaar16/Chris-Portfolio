@@ -2,9 +2,9 @@ import React from "react";
 import Icon1 from "../../images/pathways.png";
 import Icon2 from "../../images/netflix.png";
 import Icon3 from "../../images/mym.png";
-import Icon4 from "../../images/covid.png";
-import Icon5 from "../../images/weather.png";
-import Icon6 from "../../images/bowman.png";
+// import Icon4 from "../../images/covid.png";
+// import Icon5 from "../../images/weather.png";
+// import Icon6 from "../../images/bowman.png";
 import {
   ServicesContainer,
   ServicesH1,
@@ -31,7 +31,7 @@ const Services = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://pathwaysinternational.netlify.app/"
-          className="button"
+          className="servicebutton"
         >View App</a>
           
         </ServicesCard>
@@ -49,7 +49,7 @@ const Services = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://netflix2-39bba.web.app/"
-          className="button"
+          className="servicebutton"
         >View App</a>
           
         </ServicesCard>
@@ -64,12 +64,12 @@ const Services = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://mindyourmoney.netlify.app/"
-          className="button"
+          className="servicebutton"
         >View App</a>
           
         </ServicesCard>
 
-        <ServicesCard>
+        {/* <ServicesCard>
           <ServicesIcon src={Icon4} />
           <ServicesH2>Covid Tracker</ServicesH2>
           <ServicesP>
@@ -87,8 +87,8 @@ const Services = () => {
           className="button"
         >View App</a>
          
-        </ServicesCard>
-        <ServicesCard>
+        </ServicesCard> */}
+        {/* <ServicesCard>
           <ServicesIcon src={Icon5} />
           <ServicesH2>Global Weather App</ServicesH2>
           <ServicesP>
@@ -104,8 +104,8 @@ const Services = () => {
           className="button"
         >View App</a>
         
-        </ServicesCard>
-        <ServicesCard>
+        </ServicesCard> */}
+        {/* <ServicesCard>
           <ServicesIcon src={Icon6} />
           <ServicesH2>Bowman Electric</ServicesH2>
           <ServicesP>
@@ -119,7 +119,7 @@ const Services = () => {
           className="button"
         >View App</a>
           
-        </ServicesCard>
+        </ServicesCard> */}
       </ServicesWrapper>
     </ServicesContainer>
   );

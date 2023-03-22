@@ -14,11 +14,7 @@ import {
 } from "./BannerElements";
 
 const Banner = () => {
-  //const [hover, setHover] = useState(false);
-
-  // const onHover = () => {
-  //   setHover(!hover);
-  // };
+ 
 
   return (
     <HeroContainer>
@@ -29,7 +25,7 @@ const Banner = () => {
         <HeroH1>Chris Haar</HeroH1>
         <HeroH2>Software Engineer</HeroH2>
         <HeroP>
-          Check out my portfolio or contact me
+          
         </HeroP>
         <HeroBtnWrapper>
         <NavBtn>

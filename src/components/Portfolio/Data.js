@@ -41,7 +41,7 @@ export const homeObjOne = {
     topLine: "What I do for fun",
     headline: "When I'm not in front of a screen, I'm in the mountains",
     description:
-      "I enjoy building applications and playing with various consumer electronics. I have been fortunate enough to attend the Consumer Electronic Show in Las Vegas a couple of times. When I am not tied up with tech, I am usually snowboarding, off-roading, or camping. I absolutely love the outdoors.",
+    "I enjoy building applications and playing with various consumer electronics. I have been fortunate enough to attend the Consumer Electronic Show in Las Vegas a couple of times. When I am not tied up with tech, I am usually snowboarding, off-roading, or camping. I absolutely love the outdoors.",
     imgStart: true,
     img: require("../../images/wheel.jpg"),
     alt: "cool stuff",

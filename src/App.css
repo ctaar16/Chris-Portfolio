@@ -6,7 +6,7 @@
 }
 
 .button {
-  border-radius: 10%;
+  border-radius: 10% 2px black;
   padding-top: 65px;
   padding: 7px;
   background-color:#40E0D0;
@@ -14,3 +14,15 @@
   cursor: pointer;
   margin: 10px;
 }
+
+.servicebutton {
+  border-radius: 10% 2px black;
+  padding-top: 65px;
+  padding: 7px;
+  background-color:#40E0D0;
+  color: #010606;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+
