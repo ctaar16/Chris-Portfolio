@@ -31,9 +31,9 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
-  const toggleHome = ({ toggle }) => {
+  const toggleHome = () => {
     scroll.scrollToTop();
-  };
+  }
 
   return (
     <>
@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" >
-              <Mug src={chris} onClick={toggleHome}/>
+              <Mug onClick={toggleHome} src={chris} />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../Sidebar/ButtonElements";
 
 import {
   InfoContainer,
@@ -44,11 +43,11 @@ const Portfolio = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   
-                    <a href="https://github.com/ctaar16"><button>My Github</button></a>
+                    <a href="https://github.com/ctaar16">
+                      <button className="button">My Github</button></a>
                   
-                  
-                    <a href="https://drive.google.com/file/d/1g_TRyQzHWxOYxlhhBsZQ-DMe0XD2Q6Rm/view?usp=sharing">
-                      <button>My Resume</button>
+                    <a href="https://drive.google.com/file/d/1LSWdJMHyFQPo8C-CWR45_eCEqe37Q_l0/view?usp=share_link">
+                      <button className="button">My Resume</button>
                     </a>
                   
                 </BtnWrap>

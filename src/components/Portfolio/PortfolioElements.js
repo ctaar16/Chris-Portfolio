@@ -7,6 +7,7 @@ export const InfoContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 25px;
   }
+ 
 `;
 
 export const InfoWrapper = styled.div`
@@ -17,7 +18,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 px;
+  padding: 0px;
   justify-content: center;
 `;
 
@@ -50,6 +51,12 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0px;
   padding-bottom: 60px;
+
+  @media screen and (max-width: 768px) {
+    //height: 125px;
+    
+  }
+
 `;
 
 export const TopLine = styled.p`
@@ -89,10 +96,22 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    height: 65%;
+    
+  }
 `;
 
 export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+
+  @media screen and (max-width: 768px) {
+    height: 65%;
+    
+  }
+
 `;
+

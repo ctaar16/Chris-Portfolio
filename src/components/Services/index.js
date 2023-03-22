@@ -5,7 +5,6 @@ import Icon3 from "../../images/mym.png";
 import Icon4 from "../../images/covid.png";
 import Icon5 from "../../images/weather.png";
 import Icon6 from "../../images/bowman.png";
-import { Button } from "../Sidebar/ButtonElements";
 import {
   ServicesContainer,
   ServicesH1,
@@ -27,14 +26,14 @@ const Services = () => {
           <ServicesP>
             Built a professional website for Pathways International's Data Analytics Program using HTML, CSS, React.JS, and Formspree.
           </ServicesP>
-          <Button>
+          
           <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://pathwaysinternational.netlify.app/"
           className="button"
         >View App</a>
-          </Button>
+          
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
@@ -45,14 +44,14 @@ const Services = () => {
             sourced from the movieDB API. No movies can actually be played but
             functions almost identically to the actual application. Technologies used: HTML, CSS, Javascript, React, leveraged axios to consume API data.
           </ServicesP>
-          <Button>
+         
           <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://netflix2-39bba.web.app/"
           className="button"
         >View App</a>
-          </Button>
+          
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
@@ -60,14 +59,14 @@ const Services = () => {
           <ServicesP>
           Mind Your Money is a money management tool designed to set goals and allocate funds to said goals. This project was built by taking in design elements from a UX/UI team and enginnering this project to their vision. Technologies leveraged: HTML, CSS, JavaScript, React, Mongo DB.
           </ServicesP>
-          <Button>
+          
           <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://mindyourmoney.netlify.app/"
           className="button"
         >View App</a>
-          </Button>
+          
         </ServicesCard>
 
         <ServicesCard>
@@ -80,14 +79,14 @@ const Services = () => {
             what others are feeling. Technologies used: HTML, CSS, Javascript, React, leveraged AirTable to create and
             consume RESTFUL API data
           </ServicesP>
-          <Button>
+          
           <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://theglobalcovidtracker.netlify.app/"
           className="button"
         >View App</a>
-          </Button>
+         
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon5} />
@@ -98,12 +97,13 @@ const Services = () => {
             information by consuming API data via axios request. Technologies used:HTML, CSS, Javascript, Request using Axios
           </ServicesP>
          
-          <a target="_blank" rel="noopener noreferrer" href="https://ctaar16.github.io/Global-Weather/" className="button"
-        >
-          <button>View App</button> 
-        </a>
+          <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://ctaar16.github.io/Global-Weather/"
+          className="button"
+        >View App</a>
         
-       
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon6} />
@@ -111,14 +111,14 @@ const Services = () => {
           <ServicesP>
             Built a professional website for an Electrican in Montana using HTML, CSS, React.JS, and Formspree. This project also features React-scroll.
           </ServicesP>
-          <Button>
+          
           <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://bowmanelectric.netlify.app"
           className="button"
         >View App</a>
-          </Button>
+          
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
