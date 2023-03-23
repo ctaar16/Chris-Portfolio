@@ -24,7 +24,7 @@ export const homeObjOne = {
     topLine: "My Experience",
     headline: "Managing Projects and Teams",
     description:
-    "Over the last 8 years, I have developed applications and webpages and managed teams of developers. I'm able to speak with both non-technical clients and stakeholders, as well as IT-minded individuals. I am a great communicator, who listens well and can adapt to change quickly. My teams would describe me as supportive, efficient, and effective. I have provided a few projects below in the next section for your review, but please feel free to explore more at my Github. ",
+    "Over the last 8 years, I have developed applications and webpages, while also mangaging teams of developers. I am adept at speaking with both non-technical clients and stakeholders, as well as IT-minded individuals. I am a great communicator, who listens well and can adapt to change quickly. My teams would describe me as supportive, efficient, and effective. I have provided a few projects below in the next section for your review, but please feel free to explore more at my Github. ",
     imgStart: false,
     img: require("../../images/meet.jpg"),
     alt: "meeting",
