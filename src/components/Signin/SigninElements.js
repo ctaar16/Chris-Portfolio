@@ -11,7 +11,7 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   padding-top: 250px;
-  background:#1eb6b4;
+  background:#40E0D0;
 
   @media screen and (max-width: 480px) {
     padding-top: 50px;
@@ -71,7 +71,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background:#1eb6b4;
+  background:#40E0D0;
   padding: 16px 0;
   border: none;
   border-radius: 4px;

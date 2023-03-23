@@ -7,10 +7,10 @@ export const homeObjOne = {
     topLine: "Hi, I'm Chris! Nice to meet you.",
     headline: "Tech Professional",
     description:
-    "I am a versatile tech professional who is passionate about learning and eager to make an impact at a respected company. I have over eight years of professional experience, including managings a team of web developers, building custom reports using SQL, and creating data visualization using Power BI",
+    "I am a versatile tech professional who is passionate about learning and eager to make an impact at a respected company. I have over eight years of professional experience, including managing a team of web developers, building custom reports using SQL/SSRS, and creating data visualizations for data analytics using Power BI",
     imgStart: true,
     img: require("../../images/about.jpg"),
-    alt: "pliers",
+    alt: "code",
     dark: true,
     primary: true,
     darkText: false,
