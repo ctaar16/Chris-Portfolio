@@ -51,7 +51,7 @@ export const Form = styled.form`
 export const Label = styled.h1`
   margin-bottom: 40px;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
 `;
@@ -75,7 +75,7 @@ export const FormButton = styled.button`
   padding: 16px 0;
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: black;
   font-size: 20px;
   cursor: pointer;
 `;

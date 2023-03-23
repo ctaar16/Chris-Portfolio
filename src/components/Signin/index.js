@@ -20,7 +20,7 @@ function ContactForm() {
       <FormWrap>
       <Form onSubmit={handleSubmit}>
       <Label htmlFor="email">
-        Contact Us
+        Email Me
       </Label>
       <FormInput
         id="email"

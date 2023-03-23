@@ -31,7 +31,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Me</FooterLinkTitle>
+              <FooterLinkTitle>Contact Info</FooterLinkTitle>
               <FooterLink to="/">(903) 521-0646</FooterLink>
               <FooterLink to="/">cthaar16@gmail.com</FooterLink>
               <FooterLink to="/">Denver, Colorado</FooterLink>
@@ -44,7 +44,7 @@ const Footer = () => {
             <SocialLogo to="/" onClick={toggleHome}>Chris Haar</SocialLogo>
             <WebsiteRights>
               Chris Haar © {new Date().getFullYear()}
-               " All Rights Reserved
+                All Rights Reserved
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="//www.linkedin.com/in/chris-haar/">
